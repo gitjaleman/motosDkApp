@@ -1,0 +1,393 @@
+$colorsCyan: (
+  cyan-50 : #ECFEFF ,
+  cyan-100 : #CFFAFE ,
+  cyan-200 : #A5F3FC ,
+  cyan-300 : #67E8F9 ,
+  cyan-400 : #22D3EE ,
+  cyan-500 : #06B6D4 ,
+  cyan-600 : #0891B2 ,
+  cyan-700 : #0E7490 ,
+  cyan-800 : #155E75 ,
+  cyan-900 : #164E63 
+);
+
+$colorsSky: (
+  sky-50 : #F0F9FF ,
+  sky-100 : #E0F2FE ,
+  sky-200 : #BAE6FD ,
+  sky-300 : #7DD3FC ,
+  sky-400 : #38BDF8 ,
+  sky-500 : #0EA5E9 ,
+  sky-600 : #0284C7 ,
+  sky-700 : #0369A1 ,
+  sky-800 : #075985 ,
+  sky-900 : #0C4A6E 
+);
+
+$colorsBlue: (
+  blue-50 : #EFF6FF ,
+  blue-100 : #DBEAFE ,
+  blue-200 : #BFDBFE ,
+  blue-300 : #93C5FD ,
+  blue-400 : #60A5FA ,
+  blue-500 : #3B82F6 ,
+  blue-600 : #2563EB ,
+  blue-700 : #1D4ED8 ,
+  blue-800 : #1E40AF ,
+  blue-900 : #1E3A8A 
+);
+
+$colorsSlate: (
+  slate-50 : #F9FAFB ,
+  slate-100 : #CBD5E0 ,
+  slate-200 : #A0AEC0 ,
+  slate-300 : #718096 ,
+  slate-400 : #4A5568 ,
+  slate-500 : #2D3748 ,
+  slate-600 : #1A202C ,
+  slate-700 : #171923 ,
+  slate-800 : #111827 ,
+  slate-900 : #0C0E11 
+);
+
+$colorsGray: (
+  gray-50 : #f9fafb,
+  gray-100 : #f3f4f6,
+  gray-200 : #e5e7eb,
+  gray-300 : #d1d5db,
+  gray-400 : #9ca3af,
+  gray-500 : #6b7280,
+  gray-600 : #4b5563,
+  gray-700 : #374151,
+  gray-800 : #1f2937,
+  gray-900 : #111827
+);
+
+$colorsRose: (
+  rose-50 : #FFF1F2 ,
+  rose-100 : #FFE4E6 ,
+  rose-200 : #FECDD3 ,
+  rose-300 : #FDA4AF ,
+  rose-400 : #FB7185 ,
+  rose-500 : #F43F5E ,
+  rose-600 : #E11D48 ,
+  rose-700 : #BE123C ,
+  rose-800 : #9F1239 ,
+  rose-900 : #881337 
+);
+
+$colorsRed: (
+  red-50 : #fef2f2 ,
+  red-100 : #fee2e2 ,
+  red-200 : #fecaca ,
+  red-300 : #fca5a5 ,
+  red-400 : #f87171 ,
+  red-500 : #ef4444 ,
+  red-600 : #dc2626 ,
+  red-700 : #b91c1c ,
+  red-800 : #991b1b ,
+  red-900 : #7f1d1d 
+);
+
+$colorsPink: (
+  pink-50 : #fdf2f8 ,
+  pink-100 : #fce7f3 ,
+  pink-200 : #fbcfe8 ,
+  pink-300 : #f9a8d4 ,
+  pink-400 : #f472b6 ,
+  pink-500 : #ec4899 ,
+  pink-600 : #db2777 ,
+  pink-700 : #be185d ,
+  pink-800 : #9d174d ,
+  pink-900 : #831843 
+);
+
+$colorsOrange: (
+  orange-50 : #fff7ed ,
+  orange-100 : #ffedd5 ,
+  orange-200 : #fed7aa ,
+  orange-300 : #fdba74 ,
+  orange-400 : #fb923c ,
+  orange-500 : #f97316 ,
+  orange-600 : #ea580c ,
+  orange-700 : #c2410c ,
+  orange-800 : #9a3412 ,
+  orange-900 : #7c2d12 
+);
+
+$colorsAmber: (
+  amber-50 : #fffbeb ,
+  amber-100 : #fef3c7 ,
+  amber-200 : #fde68a ,
+  amber-300 : #fcd34d ,
+  amber-400 : #fbbf24 ,
+  amber-500 : #f59e0b ,
+  amber-600 : #d97706 ,
+  amber-700 : #b45309 ,
+  amber-800 : #92400e ,
+  amber-900 : #78350f 
+);
+
+$colorsYellow: (
+  yellow-50 : #fefce8 ,
+  yellow-100 : #fef9c3 ,
+  yellow-200 : #fef08a ,
+  yellow-300 : #fde047 ,
+  yellow-400 : #facc15 ,
+  yellow-500 : #eab308 ,
+  yellow-600 : #ca8a04 ,
+  yellow-700 : #a16207 ,
+  yellow-800 : #854d0e ,
+  yellow-900 : #713f12 ,
+);
+
+$colorsTeal: (
+  teal-50 : #f0fdfa ,
+  teal-100 : #ccfbf1 ,
+  teal-200 : #99f6e4 ,
+  teal-300 : #5eead4 ,
+  teal-400 : #2dd4bf ,
+  teal-500 : #14b8a6 ,
+  teal-600 : #0d9488 ,
+  teal-700 : #0f766e ,
+  teal-800 : #115e59 ,
+  teal-900 : #134e4a 
+);
+
+$colorsEsmerald: (
+  esmerald-50 : #ecfdf5 ,
+  esmerald-100 : #d1fae5 ,
+  esmerald-200 : #a7f3d0 ,
+  esmerald-300 : #6ee7b7 ,
+  esmerald-400 : #34d399 ,
+  esmerald-500 : #10b981 ,
+  esmerald-600 : #059669 ,
+  esmerald-700 : #047857 ,
+  esmerald-800 : #065f46 ,
+  esmerald-900 : #064e3b ,
+);
+
+$colorsGreen: (
+  green-50 : #f0fdf4 ,
+  green-100 : #dcfce7 ,
+  green-200 : #bbf7d0 ,
+  green-300 : #86efac ,
+  green-400 : #4ade80 ,
+  green-500 : #22c55e ,
+  green-600 : #16a34a ,
+  green-700 : #15803d ,
+  green-800 : #166534 ,
+  green-900 : #14532d ,
+);
+
+$colorsIndigo: (
+  indigo-50 : #eef2ff ,
+  indigo-100 : #e0e7ff ,
+  indigo-200 : #c7d2fe ,
+  indigo-300 : #a5b4fc ,
+  indigo-400 : #818cf8 ,
+  indigo-500 : #6366f1 ,
+  indigo-600 : #4f46e5 ,
+  indigo-700 : #4338ca ,
+  indigo-800 : #3730a3 ,
+  indigo-900 : #312e81 ,
+);
+
+
+$colorsViolet: (
+  violet-50 : #f5f3ff ,
+  violet-100 : #ede9fe ,
+  violet-200 : #ddd6fe ,
+  violet-300 : #c4b5fd ,
+  violet-400 : #a78bfa ,
+  violet-500 : #8b5cf6 ,
+  violet-600 : #7c3aed ,
+  violet-700 : #6d28d9 ,
+  violet-800 : #5b21b6 ,
+  violet-900 : #4c1d95 ,
+);
+
+$colorsPurple: (
+  purple-50 : #faf5ff ,
+  purple-100 : #f3e8ff ,
+  purple-200 : #e9d5ff ,
+  purple-300 : #d8b4fe ,
+  purple-400 : #c084fc ,
+  purple-500 : #a855f7 ,
+  purple-600 : #9333ea ,
+  purple-700 : #7e22ce ,
+  purple-800 : #6b21a8 ,
+  purple-900 : #581c87 ,
+);
+
+$colorsFuchsia: (
+  fuchsia-50 : #fdf2f8,
+  fuchsia-100 : #fce7f3,
+  fuchsia-200 : #fbcfe8,
+  fuchsia-300 : #f9a8d4,
+  fuchsia-400 : #f472b6,
+  fuchsia-500 : #ec4899,
+  fuchsia-600 : #db2777,
+  fuchsia-700 : #be185d,
+  fuchsia-800 : #9d174d,
+  fuchsia-900 : #831843
+);
+
+$colorsBase:(
+  'white' : #ffffff,
+  'none' : transparent
+);
+
+@each $name, $color in $colorsCyan {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsCyan {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsCyan {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsCyan {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsCyan {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsCyan {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsCyan {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsSky {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsSky {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsSky {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsSky {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsSky {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsSky {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsSky {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsBlue {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsBlue {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsBlue {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsBlue {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsBlue {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsBlue {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsBlue {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsSlate {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsSlate {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsSlate {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsSlate {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsSlate {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsSlate {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsSlate {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsGray {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsGray {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsGray {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsGray {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsGray {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsGray {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsGray {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsRose {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsRose {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsRose {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsRose {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsRose {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsRose {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsRose {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsRed {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsRed {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsRed {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsRed {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsRed {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsRed {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsRed {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsPink {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsPink {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsPink {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsPink {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsPink {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsPink {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsPink {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsOrange {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsOrange {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsOrange {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsOrange {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsOrange {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsOrange {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsOrange {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsAmber {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsAmber {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsAmber {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsAmber {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsAmber {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsAmber {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsAmber {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsYellow {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsYellow {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsYellow {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsYellow {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsYellow {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsYellow {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsYellow {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsTeal {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsTeal {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsTeal {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsTeal {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsTeal {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsTeal {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsTeal {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsEsmerald {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsEsmerald {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsEsmerald {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsEsmerald {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsEsmerald {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsEsmerald {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsEsmerald {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsGreen {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsGreen {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsGreen {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsGreen {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsGreen {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsGreen {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsGreen {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsIndigo {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsIndigo {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsIndigo {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsIndigo {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsIndigo {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsIndigo {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsIndigo {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsViolet {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsViolet {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsViolet {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsViolet {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsViolet {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsViolet {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsViolet {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsPurple {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsPurple {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsPurple {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsPurple {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsPurple {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsPurple {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsPurple {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsFuchsia {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsFuchsia {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsFuchsia {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsFuchsia {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsFuchsia {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsFuchsia {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsFuchsia {.focus-#{$name}:focus {border-color: $color !important;}}
+
+@each $name, $color in $colorsBase {.bg-#{$name} {background-color: $color !important;}}
+@each $name, $color in $colorsBase {.hover-bg-#{$name}:hover {background-color: $color !important;}}
+@each $name, $color in $colorsBase {.border-#{$name} {border-color: $color !important;}}
+@each $name, $color in $colorsBase {.hover-border-#{$name}:hover {border-color: $color !important;}}
+@each $name, $color in $colorsBase {.text-#{$name} {color: $color !important;}}
+@each $name, $color in $colorsBase {.hover-text-#{$name}:hover {color: $color !important;}}
+@each $name, $color in $colorsBase {.focus-#{$name}:focus {border-color: $color !important;}}
+
+/*  sass colors.scss customColors.min.css --style compressed --no-source-map  */

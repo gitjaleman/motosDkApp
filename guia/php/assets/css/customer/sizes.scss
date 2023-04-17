@@ -1,0 +1,142 @@
+$sizeFull:(
+    'full' : 100%,
+    'device' : 100vh
+);
+$sizePx:(
+  'none' : none,
+  '0px' : 0px,
+  '1px' : 1px,
+  '2px' : 2px,
+  '3px' : 3px,
+  '4px' : 4px,
+  '5px' : 5px,
+  '6px' : 6px,
+  '7px' : 7px,
+  '8px' : 8px,
+  '9px' : 9px,
+  '10px' : 10px,
+  '11px' : 11px,
+  '12px' : 12px,
+  '13px' : 13px,
+  '14px' : 14px,
+  '15px' : 15px,
+  '16px' : 16px,
+  '17px' : 17px,
+  '18px' : 18px,
+  '19px' : 19px,
+  '20px' : 20px,
+  '22px' : 22px,
+  '24px' : 24px,
+  '26px' : 26px,
+  '28px' : 28px,
+  '30px' : 30px,
+  '32px' : 32px,
+  '34px' : 34px,
+  '36px' : 36px,
+  '38px' : 38px,
+  '40px' : 40px,
+  '42px' : 42px,
+  '44px' : 44px,
+  '46px' : 46px,
+  '48px' : 48px,
+  '50px' : 50px,
+  '60px' : 60px,
+  '70px' : 70px,
+  '80px' : 80px,
+  '90px' : 90px,
+  '100px' : 100px,
+  '110px' : 110px,
+  '120px' : 120px,
+  '130px' : 130px,
+  '140px' : 140px,
+  '150px' : 150px,
+  '160px' : 160px,
+  '170px' : 170px,
+  '180px' : 180px,
+  '190px' : 190px,
+  '200px' : 200px,
+  '300px' : 300px,
+  '400px' : 400px
+);
+
+$sizePc:(
+  '1pc' : 1%,
+  '2pc' : 2%,
+  '3pc' : 3%,
+  '4pc' : 4%,
+  '5pc' : 5%,
+  '6pc' : 6%,
+  '7pc' : 7%,
+  '8pc' : 8%,
+  '9pc' : 9%,
+  '10pc' : 10%,
+  '11pc' : 11%,
+  '12pc' : 12%,
+  '13pc' : 13%,
+  '14pc' : 14%,
+  '15pc' : 15%,
+  '16pc' : 16%,
+  '17pc' : 17%,
+  '18pc' : 18%,
+  '19pc' : 19%,
+  '20pc' : 20%,
+  '22pc' : 22%,
+  '24pc' : 24%,
+  '26pc' : 26%,
+  '28pc' : 28%,
+  '30pc' : 30%,
+  '32pc' : 32%,
+  '34pc' : 34%,
+  '36pc' : 36%,
+  '38pc' : 38%,
+  '40pc' : 40%,
+  '42pc' : 42%,
+  '44pc' : 44%,
+  '46pc' : 46%,
+  '48pc' : 48%,
+  '50pc' : 50%,
+  '60pc' : 60%,
+  '70pc' : 70%,
+  '80pc' : 80%,
+  '90pc' : 90%
+);
+
+@each $name, $size in $sizeFull {
+    .w-#{$name} {width: $size !important;}
+    .h-#{$name} {height: $size !important;}
+}
+@each $name, $size in $sizePx {
+    .w-#{$name} {width: $size !important;}
+    .max-w-#{$name} {max-width: $size !important;}
+    .min-w-#{$name} {min-width: $size !important;}
+    .h-#{$name} {height: $size !important;}
+    .max-h-#{$name} {max-height: $size !important;}
+    .min-h-#{$name} {min-height: $size !important;}
+    .p-#{$name}{padding: $size !important;}
+    .pl-#{$name}{padding-left: $size !important;}
+    .pr-#{$name}{padding-right: $size !important;}
+    .pt-#{$name}{padding-top: $size !important;}
+    .pb-#{$name}{padding-bottom: $size !important;}
+    .m-#{$name}{margin: $size !important;}
+    .ml-#{$name}{margin-left: $size !important;}
+    .mr-#{$name}{margin-right: $size !important;}
+    .mt-#{$name}{margin-top: $size !important;}
+    .mb-#{$name}{margin-bottom: $size !important;}
+    .top-#{$name}{top: $size !important;}
+    .left-#{$name}{left: $size !important;}
+    .right-#{$name}{right: $size !important;}
+    .bottom-#{$name}{bottom: $size !important;}
+}
+@each $name, $size in $sizePc {
+    .h-#{$name} {height: $size !important;}
+    .max-h-#{$name} {max-height: $size !important;}
+    .min-h-#{$name} {min-height: $size !important;}
+    .w-#{$name} {width: $size !important;}
+    .max-w-#{$name} {max-width: $size !important;}
+    .min-w-#{$name} {min-width: $size !important;}
+    
+}
+
+
+/*  sass sizes.scss customSizes.min.css --style compressed --no-source-map  */
+/*  sass sizes.scss customSizes.css  --no-source-map  */

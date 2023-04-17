@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'poppins';
+    src: url('/fonts/poppins.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('/fonts/roboto.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'nexa';
+    src: url('/fonts/nexa.ttf') format('truetype');
+}
+.poppins{ font-family: 'poppins' !important   ;}
+.roboto{ font-family: 'roboto' !important    ;}
+.nexa{ font-family: 'nexa' !important    ;}
+
+.header_web_f1{
+    clip-path: polygon(8% 0, 92% 0, 100% 100%, 0 100%);
+}
+.header_web_f2{
+    clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%);
+}
+.header_web_btn1{
+    clip-path: polygon(0 0, 67% 0, 100% 100%, 33% 100%);
+}
+.header_web_btn2{
+    clip-path: polygon(33% 0, 100% 0, 67% 100%, 0 100%);
+}
+
+.header_web_input{
+    clip-path: polygon(0 0, 100% 0, 90.5% 100%, 9.5% 100%);
+}
+
+
